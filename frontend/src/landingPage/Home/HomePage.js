@@ -11,8 +11,7 @@ import Footer from "../Footer";
 export default function HomePage() {
 	return (
 		<>
-			{/* <i class="fa-solid fa-house"></i> */}
-			{/* <NavBar /> */}
+			<NavBar />
 			<Hero />
 			<Awards />
 			<Stats />

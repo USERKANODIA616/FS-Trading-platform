@@ -1,8 +1,8 @@
 export default function Stats() {
 	return (
-		<div className="container mt-5">
+		<div className="container">
 			<div className="row">
-				<div className="col-5 ml-5">
+				<div className="col-5">
 					<h2>Trust with confidence</h2>
 					<h3 className="mt-5">Customer-first always</h3>
 					<p style={{ fontSize: "17px", color: "#666666" }}>
@@ -16,7 +16,10 @@ export default function Stats() {
 						No gimmicks, spam, "gamification", or annoying push
 						notifications. High quality apps that you use at your
 						pace, the way you like.
-						<a src="#" style={{ color: "#387ed1" }}>
+						<a
+							href="#"
+							style={{ color: "#387ed1", textDecoration: "none" }}
+						>
 							Our philosophies.
 						</a>
 					</p>
@@ -29,11 +32,17 @@ export default function Stats() {
 					<h3 className="mt-5">Do better with money</h3>
 					<p style={{ fontSize: "17px", color: "#666666" }}>
 						With initiatives like&nbsp;
-						<a src="#" style={{ color: "#387ed1" }}>
+						<a
+							href="#"
+							style={{ color: "#387ed1", textDecoration: "none" }}
+						>
 							Nudge
 						</a>{" "}
 						and&nbsp;
-						<a src="#" style={{ color: "#387ed1" }}>
+						<a
+							href="#"
+							style={{ color: "#387ed1", textDecoration: "none" }}
+						>
 							Kill Switch
 						</a>{" "}
 						, we don't just facilitate transactions, but actively
@@ -41,11 +50,33 @@ export default function Stats() {
 					</p>
 				</div>
 				<div className="col-7">
+
 					<img
 						src="Images\ecosystem.png"
-						style={{ width: "100%" }}
+						style={{ width: "100%",height:"92%" }}
 					></img>
-					<a src></a>
+					<div className="row">
+						<div className="col-2"></div>
+						<div className="col">
+							<a
+								href="#"
+								style={{ color: "#387ed1", textDecoration: "none" }}
+							>
+							Explore our products
+							<i class="fa-solid fa-arrow-down fa-rotate-270"></i>
+							</a>
+						</div>
+						<div className="col">
+							<a
+								href="#"
+								style={{ color: "#387ed1", textDecoration: "none" }}
+							>
+							Try Kite demo
+							<i class="fa-solid fa-arrow-down fa-rotate-270"></i>
+							</a>
+						</div>
+						<div className="col-2 mb-5"></div>
+					</div>
 				</div>
 			</div>
 		</div>

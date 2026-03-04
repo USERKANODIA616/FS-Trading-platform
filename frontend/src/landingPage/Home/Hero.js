@@ -1,13 +1,12 @@
 export default function Hero() {
 	return (
-		<div className="container p-5">
+		<div className="container p-5 mt-5">
 			<div className="row text-center">
 				<img
 					src="/Images/homeHero.png"
 					alt="heroImage"
 					className="mb-5"
 				/>
-				
 				<h1 className="mt-5 mb-3">Invest in everything</h1>
 				<h3>
 					Online platform to invest in stocks, derivatives, mutual
