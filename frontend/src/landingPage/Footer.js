@@ -46,7 +46,7 @@ export default function Footer() {
 					</div>
 					<div className="col footer-link">
 						<ul>
-							<p className="fs-5">Account</p>
+							<p className="fs-5 ml-5">Account</p>
 							<li>
 								<a href="#">Open demat account</a>
 							</li>
