@@ -1,0 +1,46 @@
+.tab {
+	padding-left: 60px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.tab-nav {
+	border-bottom: 2px solid #e1e1e1;
+	margin-bottom: 2rem;
+	padding-bottom: 0.7rem;
+}
+.tab:hover {
+	color: #666;
+}
+.tab.active {
+	color: #666;
+	font-weight: 500;
+}
+thead,
+tbody {
+	border: 1px solid #ddd;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+th,
+td {
+	padding: 15px;
+	font-weight: 500;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #fbfbfb;
+}
+
+thead th {
+	background: #fff;
+	font-weight: 600;
+}
+ul li {
+	font-size: medium;
+}
+
